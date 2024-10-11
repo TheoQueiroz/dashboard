@@ -12,4 +12,14 @@
     </div>
     <script src="js/scripts.js"></script>
 </body>
+    <script>
+  setTimeout(function(){
+     location.reload();
+  }, 900000); // 300000 ms = 5 minutos
+  setInterval(function() {
+    window.scrollBy(0, 1);  // Faz um pequeno scroll na página
+    window.scrollBy(0, -1); // Retorna à posição original
+  }, 60000);  // A cada 60 segundos
+</script>
+
 </html>
