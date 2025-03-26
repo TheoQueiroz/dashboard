@@ -3,7 +3,7 @@ function updateDashboard() {
     if (window.innerWidth <= 768) { // Tamanho típico de um dispositivo móvel
         iframe.src = 'https://lookerstudio.google.com/embed/reporting/9f6831cc-bcd9-42f0-832d-eabc8abcfef8/page/fslCF';
     } else {
-        iframe.src = 'https://lookerstudio.google.com/embed/reporting/7c015a7a-5ca7-41c9-8616-eab20e920360/page/fslCF';
+        iframe.src = 'https://lookerstudio.google.com/embed/reporting/9f6831cc-bcd9-42f0-832d-eabc8abcfef8/page/fslCF';
     }
 }
 
